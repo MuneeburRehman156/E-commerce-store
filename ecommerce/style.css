@@ -1,0 +1,188 @@
+*{
+    margin: 0px;
+    padding: 0px;
+box-sizing: border-box;
+}
+body{
+background-color: #F6F5F2;
+color: #153448;
+overflow-x: hidden;
+}
+.navbar{
+    width: 100%;
+    height: 50px !important;
+    background-color: #747474 !important;
+padding: 1.2%;
+position: fixed;
+z-index: 1;
+}
+.navbar-nav{
+    margin-left: 37%;
+}
+.nav-link{
+    margin: 0px 20px;
+    color: rgb(255, 255, 255) !important;
+    font-weight: 600;
+transition: .4s !important;
+}
+.nav-link:hover{
+    color: rgb(241, 99, 47) !important;
+    text-decoration: underline;
+}
+.page1{
+    width: 100%;
+    height: 100vh;
+    background-image: url(https://ecommercedesignshah.netlify.app/img/back.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+#backgroungshade{
+    padding: 11% 6%;
+    background-color: rgba(96, 96, 96, 0.546);
+    color: black;
+    width: 100%;
+    height: 100vh;
+font-weight: bold;
+}
+.mainbtn{
+color: white;
+background-color: orange;
+border: none;
+width: 12%;
+padding: .8%;
+font-weight: bold;
+border-radius: 20px;
+transition: .4s;
+}
+.mainbtn:hover{
+    background-color: rgb(241, 99, 47);
+    box-shadow: -16px 2px 8px black;
+    text-decoration: underline;
+    transform: translateX(12px);
+}
+.img-1{
+    width: 33.2%;
+    height: 50vh;
+    background-image: url(https://ecommercedesignshah.netlify.app/img/new/1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.img-2{
+    width: 33.2%;
+    height: 50vh;
+    background-image: url(https://ecommercedesignshah.netlify.app/img/new/2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.img-3{
+    width: 33.2%;
+    height: 50vh;
+    background-image: url(https://ecommercedesignshah.netlify.app/img/new/3.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.btn2{
+    margin-top: 4%;
+    text-decoration: underline;
+    transition: .3s;
+}
+.btn2:hover{
+    color: white;
+}
+.category{
+    width: 110%;
+    height:100%;
+    transition: .3s;
+}
+.category:hover{
+    color: white;
+background-color:rgba(96, 96, 96, 0.671) ;
+}
+.features{
+    padding: 1.6% 0px;
+}
+.seperate{
+    background-color: rgb(91, 92, 91);
+    width: 40px;
+    height: 6px;
+    margin: .7%;
+    border-radius: 20px;
+}
+.card{
+    margin: auto;
+    border: none;
+    background-color: transparent;
+}
+.card:hover{
+    background-color: #929596;
+}
+.fa-star{
+    color:orange;
+}
+.buy{
+    background-color: orange;
+    color: white;
+    font-weight: bold;
+    border: none;
+}
+.buy:hover{
+    background-color: rgb(241, 99, 47);
+}
+.cardss{
+    margin-bottom: 6%;
+}
+.content-bg{
+    background-image: url(https://ecommercedesignshah.netlify.app/img/banner/2.jpg);
+width: 100%;
+height: 100vh;
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+z-index: -1;
+}
+.con-bg{
+    background-color: #1534488b;
+    width: 100%;
+height: 100vh;
+z-index: 1;
+padding: 6% 4%;
+}
+.btn-3{
+    color: white;
+    background-color: orange;
+    border: none;
+    width: 12%;
+    padding: .8%;
+    font-weight: bold;
+    border-radius: 20px;
+    transition: .4s;
+}
+.btn-3:hover{
+    background-color: rgb(241, 99, 47);
+    box-shadow: -16px 2px 8px black;
+    text-decoration: underline;
+    transform: translateX(12px);
+}
+.foot-head{
+  background-color:#747474;
+  color: white !important;
+}
+.f-icon{
+    color: orange;
+    transition: .4s;
+}
+.f-icon:hover{
+   color: rgb(241, 99, 47);
+}
+.f-text{
+    color: white;
+    transition: .4s;
+}
+.f-text:hover{
+   color: rgb(241, 99, 47) !important;
+}
